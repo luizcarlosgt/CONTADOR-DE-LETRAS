@@ -1,0 +1,57 @@
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+    background-size: cover;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(158, 18, 53);
+    text-shadow: 5px 5px 5px rgba(5, 5, 5, 0.589);
+}
+
+.container{
+    width: 85%;
+    height: 500px;
+    margin: 30px auto;
+    padding: 25px 25px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    background-color: rgba(235, 235, 235, 0.582);
+    box-shadow: 10px 10px 50px 10px rgb(56, 56, 56);
+}
+
+.container#sobre{
+    height: 100px;
+    overflow: hidden;
+}
+
+
+#app-6 pre p{
+    color: rgb(255, 2, 2);
+    overflow-x: hidden;
+    text-align: justify;
+}
+
+#app-6 label{
+    color: black;
+}
+
+textarea{
+    width: 95%;
+    height: 50px;
+    resize: none;
+    padding:10px 15px;
+}
+
+.letterscount{
+    float: right;
+}
+
+@media (min-width:700px){
+    .container{
+        width: 30%;
+        padding: 30px 60px;
+    }
+}
