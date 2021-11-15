@@ -2,4 +2,4 @@
  Editor de texto feito em vue.
 
 <img align="left" width="620" height="440" src="/img/Screenshot_4.png" />
-<img align="right" width="300" src="/img/Screenshot_6.png" />
+<img width="300" src="/img/Screenshot_6.png" />
