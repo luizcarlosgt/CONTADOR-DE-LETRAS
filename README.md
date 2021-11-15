@@ -1,5 +1,5 @@
 # VUE-TEXT
  Editor de texto feito em vue.
 
-![Screenshot](img/Screenshot_4)
-![Screenshot](img/Screenshot_6)
+<img align="left" width="620" height="440" src="/img/Screenshot_4.png" />
+<img align="right" width="300" src="/img/Screenshot_6.png" />
