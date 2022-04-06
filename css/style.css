@@ -6,13 +6,13 @@ body{
 
 h1{
     font-size: 50px;
-    color: rgb(255, 255, 255);
+    color: rgb(209, 192, 192);
     -webkit-text-stroke: 1px rgb(158, 18, 53);
-    text-shadow: 5px 5px 5px rgba(5, 5, 5, 0.589);
+    text-shadow: 5px 5px 5px rgba(177, 22, 22, 0.589);
 }
 
 .container{
-    width: 85%;
+    width: 30%;
     height: 500px;
     margin: 30px auto;
     padding: 25px 25px;
@@ -26,7 +26,6 @@ h1{
     height: 100px;
     overflow: hidden;
 }
-
 
 #app-6 pre p{
     color: rgb(255, 2, 2);
@@ -49,9 +48,22 @@ textarea{
     float: right;
 }
 
-@media (min-width:700px){
+@media (max-width:700px){
     .container{
-        width: 30%;
+        width: 65%;
+        height: 450px;
+        padding: 30px 50px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+}
+
+@media (min-width:700px) and (max-width:1300px) {
+    .container{
+        width: 40%;
         padding: 30px 60px;
+        height: 450px;
     }
 }
