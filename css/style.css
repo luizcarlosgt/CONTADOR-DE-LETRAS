@@ -22,13 +22,8 @@ h1{
     box-shadow: 10px 10px 50px 10px rgb(56, 56, 56);
 }
 
-.container#sobre{
-    height: 100px;
-    overflow: hidden;
-}
-
 #app-6 pre p{
-    color: rgb(255, 2, 2);
+    color: rgb(94, 73, 73);
     overflow-x: hidden;
     text-align: justify;
 }
@@ -47,6 +42,41 @@ textarea{
 .letterscount{
     float: right;
 }
+
+.container#contador{
+    display: flex;
+    height: 100px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.container#contador i{
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+
+.redes{
+    display: flex;
+    width: 140px;
+    font-size: 60px;
+    /* border: 1px solid black; */
+    margin: 0px auto;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.redes i{
+    margin-left: 10px;
+    color:  rgba(141, 139, 140, 0.516);
+}
+
+.redes i:hover{
+    cursor: pointer;
+}
+
+
 
 @media (max-width:700px){
     .container{
