@@ -1,4 +1,6 @@
 # VUE-TEXT
  Editor de texto feito em vue.
 
-<img width="300" src="/img/Screenshot_6.png" />
+<div align="center">
+    <img width="300" src="/img/Screenshot_8.png" />
+</div>
